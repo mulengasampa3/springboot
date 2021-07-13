@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+	
+}
+a.active, a.hover {
+	border: 1px solid white;
+	transition: .5s;
+}
+ul {
+
+  font-family: sans-serif;
+  
+}
+
+
+li {
+  float: left;
+   transition: all .5s;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #45a049;
+  opacity: 0.95;
+   transition: all .5s;
+}
+
+li a, .dropbtn {  
+  color: white;
+  text-align: center;
+  text-decoration: none;
+   opacity: 0.95;
+ 
+}
+
+
+
+li.dropdown {
+  display: inline-block;
+   transition: all .5s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #707070;
+  min-width: 1px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+  font-size:10px; 
+   transition: all .5s;
+  
+}
+
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  background-color: #707070;
+  display:block;
+  text-align: left;
+  border-radius: 15px;
+   transition: all .5s;
+  
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+   transition: all .5s;
+}
+
+.container {
+position: absolute;
+margin: 20px;
+width: auto;
+z-index:30;
+
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background: #707070;
+	z-index: 10;
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: blanchedalmond;
+    padding: auto;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+	
+
+}
+a.active, a.hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 40px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+table {
+  
+  max-width: 100%;
+  opacity: 0.95;
+  font-family: sans-serif;
+  font-style: oblique;
+}
+
+ 
+tr{
+  background-color: #eee;
+}
+
+th {
+  z-index= 50;
+  background-color: #707070;
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+}
+
+th{
+	z-index= 50;
+	text-align:center;
+	padding: 25px
+}
+
+td {
+	z-index= 50;
+  text-align: left;
+  border-radius: 25px;
+  border: 2px solid green;
+  padding: 25px
+}
+
+body {
+  background-image: url("Entry.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #707070;
+  
+}
+
+h1 {
+
+   color: white;
+   font-style: oblique;
+  text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px green; 
+  font-family: sans-serif;
+}
+h2 {
+  color: white;
+   font-style: oblique;
+  text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px green; 
+  font-family: sans-serif;  
+}
+h3 {
+   background-color: gray;
+   color: white; 
+   text-shadow: 1px 1px 2px black;
+   border: 2px solid green;
+   opacity: 0.95;
+   font-family: sans-serif;  
+   margin-top: 15px;
+   border-radius: 15px;
+   padding: 15px 
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: ;
+  display: ;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.col-25 {
+  
+   float: left;
+   width: 25%;
+    background-color: gray;
+   color: white; 
+   text-shadow: 1px 1px 2px black;
+   border: 2px solid green;
+   opacity: 0.95;
+   font-family: sans-serif;  
+   margin-top: 15px;
+   border-radius: 15px;
+   padding: 15px 
+
+}
+
+.col-75 {
+  float: left;
+  width: 50%;
+  margin-top: 5px;
+  padding: 15px
+}
+
+
+button[id=calculate],
+button[id=recalculate] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button[id=calculate]:hover,
+button[id=calculate]:hover {
+    background-color: #45a049;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 909px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 909px) {
+  .col-25, .col-75,
+  button[id=calculate],
+  button[id=recalculate],
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+}
+
+
+  @media (max-width: 909px){
+    nav #icon{
+        display: block;
+    }  
+	
+    nav ul{
+		
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2f3640;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active, a:hover{
+        border: none;
+        color: #3498db;
+		 border-radius: 15px;
+    }
+    nav ul.show{
+        left: 0;
+    }
+  }
+
+
+
+
+
+
+/* Clear floats after the columns */
+
+
+
+#its-name {
+    display: none;
+    width: 80%;
+    background-color: #ffffff;
+    clear: left;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+

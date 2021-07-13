@@ -1,0 +1,111 @@
+.side-nav-option {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.img-container{
+    text-align: center;
+    display: block;
+}
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 20%;
+    border: px solid lightgreen;
+    padding: inherit;
+}
+.center1 {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    border: px solid lightgreen;
+    padding: inherit;
+}
+.center2{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    border: px solid lightgreen;
+    padding: inherit;
+}
+.button {
+  background-color: green; /* Green */
+  border: 59px;
+  color: lightgreen;
+  padding: 1px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-Congratulations {
+  background-color: green; /* Green */
+  border: 59px;
+  color: lightgreen;
+  padding: 100px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-padding{
+    padding-left: 470px;
+}
+div .col-md-10 .image-logo {
+  display: block;
+  margin: 70px;
+  width: 70px;
+  background-color: rebeccapurple;
+    padding-left: 150px;
+}
+.welcome-text {
+  padding: 100px;
+  color: #459e0a;
+  margin-top: 10px;
+  font-size: 35px;
+  text-align: center;
+  background-color: white;
+  border: 20px solid orange;
+    font-family: cursive;
+    font-kerning:auto;
+}
+.collapse{
+    background-color: #eee;
+    color: #4CAF50;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+.disappear {
+  display: none;
+}
+.credentials {
+  padding: 10px;
+  color: #000b1b;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+@media screen and (max-width: 600px) {
+}
